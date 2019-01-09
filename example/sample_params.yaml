@@ -1,0 +1,28 @@
+# ordered list of waypoints to fly in
+# [latitude, longitude, altitude, chi] format in meters
+waypoints: [
+             8,  0, -7, 0,
+            -8,  0, -7, 0,
+             8,  0, -7, 0,
+            -8,  0, -7, 0,
+             0, -8, -5, 0,
+             0,  8, -5, 0,
+             0, -8, -5, 0,
+             0,  8, -5, 0,
+            ]
+
+# list of all static (cylindrical) obstacles in
+# [latitude, longitude, altitude, height, radius] format in meters
+obstacles: [
+             8,  0, -7, 5, 5,
+            -8,  0, -7, 5, 5,
+             8,  0, -7, 5, 5,
+            -8,  0, -7, 5, 5,
+             0, -8, -5, 5, 5,
+             0,  8, -5, 5, 5,
+             0, -8, -5, 5, 5,
+             0,  8, -5, 5, 5,
+            ]
+
+# minimum turning radius allowed by plane, in meters
+MIN_TURN_RADIUS: 5 # ++++++++++++++++++++++

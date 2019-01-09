@@ -1,0 +1,9 @@
+# Obstacle Avoidance
+
+A suite of python algorithms for performing static obstacle avoidance.
+
+# Path-Planning Algorithms
+
+- **RRT**: ...
+- **RRT\***: ...
+- **Genetic Planner**: ...
